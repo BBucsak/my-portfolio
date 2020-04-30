@@ -1,0 +1,187 @@
+.container {
+	width: 1400px ;
+
+}
+
+body {
+	background-color: #1f202b;
+	width: 1400px ;
+}
+
+h4 {
+	color: white;
+	font-size: 24px;
+}
+
+p {
+	color: white;
+	font-size: 24px;
+}
+
+h2, h3, h4, p {
+	font-family: 'Poppins', sans-serif;
+}
+
+/*****header*****/
+
+header {
+	background-color: #1f202b;
+	height: 40px;
+	width: 1400px;
+	padding-left: 50px;
+	
+}
+
+h1 {
+	font-size: 30px;
+	float: left;
+	padding-top: 5px;
+	color: white;
+	font-family: 'Dancing Script', cursive;
+}
+
+nav {
+	float: right;
+	text-align: center;
+	padding-right: 100px;
+	padding-top: 1px;
+}
+
+nav ul li {
+	display: inline-block;
+	padding: 5px 5px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: white;
+	font-size: 30px;
+}
+
+/*****Top*****/
+
+
+.top {
+	background-image: url("../img/top-background.png");
+	background-size: cover;
+	height: 700px;
+	width: 1400px;
+}
+
+h2 {
+	font-size: 72px;
+	color: white;
+	padding-top: 208px;
+	padding-left: 100px;
+	width: 600px;
+}
+
+h2 span {
+	color: #fa0075 ;
+}
+
+/*****Portolio*****/
+
+.portfolio h3 {
+	color: #fa0075 ;
+	font-size: 36px;
+	text-align: center;
+}
+
+.full-width {
+	width: 1400px;
+	overflow: auto;
+	
+}
+
+.half-width {
+	float: left;
+	width: 600px;
+	padding-top: 110px;
+	padding-left: 100px;
+	padding-right: 100px;
+
+	
+}
+
+.half-width,
+.left {
+	width: 600px;
+	padding-right: 50px;
+
+	
+}
+
+.half-width,
+.right {
+	width: 600px;
+	padding-left: 50px;
+
+
+
+}
+
+.portfolio-pictures {
+	width: 550px ;
+	height: 350px;
+}
+
+/*****About Me*****/
+.about-me {
+	background-image: url("../img/about-me.png");
+	background-size: cover;
+	width: 1400px;
+	height: 550px;
+}
+
+.about-me h3 {
+	text-align: center;
+	color: #fa0075;
+	padding-top: 25px;
+	font-size: 36px;
+}
+
+.about-me p {
+	color: black;
+	float: left;
+	width: 600px;
+	padding-left: 50px;
+	font-size: 20px;
+}
+
+/*****Bottom*****/
+.bottom {
+	width: 1400px;
+}
+
+.bottom h3 {
+	color: #fa0075;
+	text-align: center;
+	font-size: 36px;
+
+}
+
+.third-width {
+	width: 466px;
+	float: left;
+}
+
+.third-width img {
+	width: 51px;
+	height: 51px;
+	float: left;
+	margin-left: 50px;
+}
+
+h4 {
+	text-align: center;
+}
+
+.third-width p {
+	text-align: center;
+}
+
+#email {
+	text-decoration: none;
+	color: white;
+}
